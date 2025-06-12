@@ -22,8 +22,7 @@
  cmakelists修改为你的地址D:/Software/visual_studio/VC/Auxiliary/VS/lib/x64/EasyXa.lib
 
 一般在你下载的visual_studio下的VC/Auxiliary/VS/lib/x64/EasyXa.lib
-
-![image-20250612173249626](C:\Users\nichenglong\AppData\Roaming\Typora\typora-user-images\image-20250612173249626.png)
+![image](https://github.com/foryearslater/crossing_guard_joe/blob/main/image-20250612173111943.png)
 
 ​    2.配置cmake
 
