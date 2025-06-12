@@ -3,7 +3,7 @@
 
 # 效果 
 
-(https://github.com/foryearslater/crossing_guard_joe/blob/main/image-20250612173100084.png)
+![image](https://github.com/foryearslater/crossing_guard_joe/blob/main/image-20250612173100084.png)
 
 ## 运行环境:
 
