@@ -1,4 +1,3 @@
-
 #include "loadimage.h"
 
 
