@@ -1,28 +1,9 @@
-#include <iostream>
-#include <cstring>
-#include <cmath>
-#include <cstdio>
-#include <graphics.h>
-#include <easyx.h>
-#include <algorithm>
-#include <time.h>
-#include <queue>
-#include <vector>
-#include <cstring>
-#include <string>
-#include <sstream>
-#include <cstdio>
-#include "game.h"
-#include "button.h"
+#include "application.h"
 
-IMAGE menu_bk;
-IMAGE img;
-int flag = MY_MENU;
-int pre_flag = MY_MENU;
-bool MUS = 1;
-extern vector<Cars *> cars_v;
 MOUSEMSG msg;
-void controller()
+int flag = MY_MENU;
+
+void Application::controller()
 {
     while (1)
     {
@@ -61,7 +42,7 @@ void controller()
     }
 }
 
-void menu_view()
+void Application::menu_view()
 {
 
     Button game_button(getwidth() / 2 - four_text_w / 2, getheight() / 2 - default_height / 2 + default_height,
@@ -120,7 +101,7 @@ void menu_view()
     }
 }
 
-void setting_view()
+void Application::setting_view()
 {
     Button return_button(1000, 650, 100, 50, "∑µªÿ", BROWN);
     Button muson_button(500, 450, 150, 50, "“Ù¿÷ø™", BROWN);
@@ -164,7 +145,7 @@ void setting_view()
         FlushBatchDraw();
     }
 }
-void help_view()
+void Application::help_view()
 {
     Button return_button(1000, 650, 100, 50, "∑µªÿ", BROWN);
     setbkcolor(RGB(191, 187, 177));
@@ -189,7 +170,7 @@ void help_view()
         FlushBatchDraw();
     }
 }
-void PauseView()
+void Application::PauseView()
 {
     IMAGE game_bk;
 

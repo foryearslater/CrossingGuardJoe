@@ -1,4 +1,4 @@
-#include "menu.cpp"
+#include "application.h"
 
 int main()
 {
@@ -7,6 +7,7 @@ int main()
     initgraph(window_width, window_height, SHOWCONSOLE);
     setbkcolor(WHITE);
 
-    controller();
+    Application app;
+    app.controller();
     return 0;
 }

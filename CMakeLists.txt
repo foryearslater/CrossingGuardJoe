@@ -9,7 +9,7 @@ add_subdirectory(src)
 
 set(EXECUTABLE_SOURCE_FILES joe/main.cpp)
 
-add_executable(${PROJECT_NAME} ${EXECUTABLE_SOURCE_FILES} "joe/menu.cpp")
+add_executable(${PROJECT_NAME} ${EXECUTABLE_SOURCE_FILES}  "include/application.h")
 
 target_link_libraries(${PROJECT_NAME} CROSSING_GUARD_JOE_LIB)
 
