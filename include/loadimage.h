@@ -2,5 +2,3 @@
 #ifdef UNICODE
 #undef UNICODE
 #endif
-
-

@@ -109,8 +109,8 @@ IMAGE car_body[2];
 void Cars::CarView()
 {
 
-    putimage(this->car_x, this->car_y, car_body, NOTSRCERASE);   
-    putimage(this->car_x, this->car_y, car_body + 1, SRCINVERT); 
+    putimage(this->car_x, this->car_y, car_body, NOTSRCERASE);
+    putimage(this->car_x, this->car_y, car_body + 1, SRCINVERT);
 
     return;
 }
